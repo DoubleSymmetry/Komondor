@@ -11,10 +11,6 @@ let package = Package(
         // User deps
         .package(url: "https://github.com/shibapm/PackageConfig.git", from: "0.13.0"),
         .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.1.0"),
-        // Dev deps
-        .package(url: "https://github.com/nicklockwood/SwiftFormat.git", from: "0.35.8"), // dev
-        .package(url: "https://github.com/Realm/SwiftLint.git", from: "0.28.1"), // dev
-        .package(url: "https://github.com/f-meloni/Rocket", from: "0.1.0"), // dev
     ],
     targets: [
         .target(
